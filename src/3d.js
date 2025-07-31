@@ -31,7 +31,7 @@ export function onWindowResize() {
 window.addEventListener("resize", onWindowResize);
 
 // INIT CAMERA
-camera.position.z = 8;
+camera.position.z = 1;
 camera.position.x = 0;
 camera.position.y = 0;
 camera.lookAt(0, 0, 0);
